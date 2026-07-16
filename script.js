@@ -165,7 +165,8 @@ window.addEventListener("scroll", function () { let e = document.querySelector("
         "how can i hire you": "To hire Imdadullah, drop your email address here and he will contact you. You can also reach via WhatsApp: +92 3318962777 or email: imdadullahchishti@gmail.com",
         "show my projects": "Imdadullah has worked on various business websites, landing pages, and custom chatbots. Drop your email to see specific project examples.",
         "contact": "You can contact Imdadullah via WhatsApp: +92 3318962777 or email: imdadullahchishti@gmail.com",
-        "full stack": "Imdadullah is a frontend developer, not a full stack developer. He specializes in creating beautiful and functional user interfaces.",
+        "full stack": "Yes, Imdadullah is a full stack developer with expertise in both frontend and backend technologies including Node.js, MongoDB, and PostgreSQL.",
+        "frontend": "Imdadullah is a full stack developer, not just frontend. He handles both frontend and backend development for complete applications.",
         "default": "I can only help with questions about Imdadullah's work and services. For more details, drop your email address here and he will contact you."
     };
 

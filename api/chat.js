@@ -115,9 +115,9 @@ You are a helpful chatbot for Imdadullah's portfolio website.
 
 CORE INFO:
 - Name: Imdadullah Chishti
-- Role: Frontend Developer (2+ years experience)
-- Technologies: HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, GSAP
-- Specializes in: Business websites, landing pages, custom chatbots
+- Role: Full Stack Developer (3+ years experience)
+- Technologies: HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, GSAP, Node.js, MongoDB, PostgreSQL
+- Specializes in: Business websites, full stack applications, landing pages, custom chatbots
 - Contact: WhatsApp +92 3318962777, Email: imdadullahchishti@gmail.com
 
 LATEST UPDATES & FAQS (From Live Sheet):
