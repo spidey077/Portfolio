@@ -965,6 +965,10 @@ footer a i:hover {
         display: none;
     }
 
+    #particle-canvas {
+        display: none;
+    }
+
     #chatbot-wrapper {
         bottom: 20px;
         left: 20px;
