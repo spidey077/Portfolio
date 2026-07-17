@@ -46,35 +46,41 @@ html.lenis body {
     opacity: 0.8;
 }
 
-/* Different colored faces */
+/* Different colored faces - Transparent with black borders */
 .front {
     transform: translateZ(40px);
-    background: rgb(206, 44, 255);
+    background: rgba(128, 128, 128, 0.3);
+    border: 2px solid #000;
 }
 
 .back {
     transform: rotateY(180deg) translateZ(40px);
-    background: rgb(255, 44, 44);
+    background: rgba(144, 144, 144, 0.3);
+    border: 2px solid #000;
 }
 
 .left {
     transform: rotateY(-90deg) translateZ(40px);
-    background: rgb(10, 255, 141);
+    background: rgba(112, 112, 112, 0.3);
+    border: 2px solid #000;
 }
 
 .right {
     transform: rotateY(90deg) translateZ(40px);
-    background: rgb(44, 255, 255);
+    background: rgba(133, 133, 133, 0.3);
+    border: 2px solid #000;
 }
 
 .top {
     transform: rotateX(90deg) translateZ(40px);
-    background: rgb(255, 238, 0);
+    background: rgba(149, 149, 149, 0.3);
+    border: 2px solid #000;
 }
 
 .bottom {
     transform: rotateX(-90deg) translateZ(40px);
-    background: rgb(255, 128, 0);
+    background: rgba(117, 117, 117, 0.3);
+    border: 2px solid #000;
 }
 
 @keyframes floatCube {
