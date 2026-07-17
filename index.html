@@ -649,34 +649,69 @@
 
     <section id="contact" style="background: linear-gradient(135deg, #f2f5ff 0%, #cfd6e6 100%); width: 100%;">
         <div class="container py-5">
-            <div class="text-center mb-5 section reveal" style="padding-top: 100px; padding-bottom: 30px;">
-                <h2 class="display-4 fw-bold text-black">Contact Me</h2>
-                <p class="lead">I will love to hear from you! Fill out the form below.</p>
-            </div>
-            <div class="row justify-content-center section reveal">
-                <div class="col-12 col-sm-10 col-md-8">
-                    <form action="https://getform.io/f/bwnqylra" method="POST">
-                        <!-- Responsive padding using Bootstrap classes -->
-                        <div class="bg-light p-3 p-sm-4 p-md-5" style="border-radius: 10px;">
-                            <div class="mb-4">
-                                <label class="form-label fw-bold" for="name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
-                                    required>
-                            </div>
-                            <div class="mb-4">
-                                <label class="form-label fw-bold" for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email"
-                                    placeholder="Your Email" required>
-                            </div>
-                            <div class="mb-4">
-                                <label class="form-label fw-bold" for="message">Project Details</label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Type Here" required></textarea>
-                            </div>
-                            <div class="text-center section reveal">
-                                <button type="submit" class="btn btn-dark px-4 py-2">Submit</button>
+            <div class="row section reveal" style="padding-top: 80px; padding-bottom: 80px;">
+                <!-- Left Column - Contact Info -->
+                <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="display-4 fw-bold text-black mb-3">Get in touch</h2>
+                    <p class="lead text-black mb-5">I'd love to hear from you. Fill out the form or reach out directly through the contact information below.</p>
+                    
+                    <!-- Contact Info Grid -->
+                    <div class="row">
+                        <div class="col-6 mb-4">
+                            <div class="d-flex flex-column">
+                                <div class="mb-2">
+                                    <i class="fas fa-envelope text-black" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <span class="fw-bold text-black" style="font-size: 0.9rem;">Email</span>
+                                <span class="text-black" style="font-size: 0.85rem;">imdadullahchishti@email.com</span>
                             </div>
                         </div>
+                        <div class="col-6 mb-4">
+                            <div class="d-flex flex-column">
+                                <div class="mb-2">
+                                    <i class="fas fa-phone text-black" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <span class="fw-bold text-black" style="font-size: 0.9rem;">Phone</span>
+                                <span class="text-black" style="font-size: 0.85rem;">+92 3318962777</span>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-4">
+                            <div class="d-flex flex-column">
+                                <div class="mb-2">
+                                    <i class="fas fa-map-marker-alt text-black" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <span class="fw-bold text-black" style="font-size: 0.9rem;">Address</span>
+                                <span class="text-black" style="font-size: 0.85rem;">Rawalpindi Pakistan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Vertical Divider -->
+                <div class="d-none d-lg-block col-lg-1">
+                    <div style="height: 100%; border-left: 1px solid rgba(0,0,0,0.2);"></div>
+                </div>
+                
+                <!-- Right Column - Form -->
+                <div class="col-12 col-lg-6">
+                    <form action="https://getform.io/f/bwnqylra" method="POST">
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-black" for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-black" for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-black" for="phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-black" for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark px-5 py-3 rounded-pill fw-bold w-100">Send Message</button>
                     </form>
                 </div>
             </div>
