@@ -969,6 +969,52 @@ footer a i:hover {
         display: none;
     }
 
+    /* Reduce service card height on mobile */
+    #services .card-body {
+        padding: 1.5rem 1rem !important;
+    }
+    
+    #services svg {
+        height: 40px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    #services h5 {
+        font-size: 1rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    #services p {
+        font-size: 0.9rem !important;
+        line-height: 1.4 !important;
+    }
+    
+    #services .btn {
+        font-size: 0.85rem !important;
+        padding: 0.4rem 0.8rem !important;
+    }
+
+    /* Reduce testimonial card height on mobile */
+    #testimonials .card {
+        padding: 1.5rem !important;
+    }
+    
+    #testimonials img,
+    #testimonials .rounded-circle {
+        width: 70px !important;
+        height: 70px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    #testimonials h5 {
+        font-size: 1.1rem !important;
+    }
+    
+    #testimonials .card-text {
+        font-size: 0.95rem !important;
+        line-height: 1.5 !important;
+    }
+
     #chatbot-wrapper {
         bottom: 20px;
         left: 20px;
