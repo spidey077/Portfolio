@@ -982,11 +982,13 @@ footer a i:hover {
     #services h5 {
         font-size: 1rem !important;
         margin-bottom: 0.5rem !important;
+        text-align: center !important;
     }
     
     #services p {
         font-size: 0.9rem !important;
         line-height: 1.4 !important;
+        text-align: center !important;
     }
     
     #services .btn {
