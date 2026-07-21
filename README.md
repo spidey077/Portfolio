@@ -1,8 +1,8 @@
-# 🌐 Imdadullah's Bootstrap Portfolio
+# 🌐 Imdadullah's Portfolio
 
 A modern personal portfolio website built using **Bootstrap 5**, showcasing my skills, projects, and contact information.
 
-🔗 **Live Site:** [imdadullahbootstrap.vercel.app](https://imdadullahbootstrap.vercel.app/)
+🔗 **Live Site:** [imdadullah.vercel.app](https://imdadullah.vercel.app/)
 
 ---
 
@@ -38,9 +38,6 @@ It uses Bootstrap to create a clean, mobile-friendly layout and includes section
 ## 🚀 Deployment
 
 Hosted on **Vercel**  
-Visit the site here 👉 [imdadullahbootstrap.vercel.app](https://imdadullahbootstrap.vercel.app/)
-
----
 
 ## 📬 Contact
 
@@ -57,4 +54,4 @@ Free to use for personal, learning, and portfolio purposes.
 
 ---
 
-> Created with 💙 by **Imdadullah**
+> Created by **Imdadullah**
