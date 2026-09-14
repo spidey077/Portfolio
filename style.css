@@ -2272,8 +2272,8 @@ footer a i:hover {
     }
 
     /* Hide duplicated cards (clones used for infinite loop) on mobile */
-    /* Web Dev section: 4 real cards, hide 5th onward */
-    #projects .card-slider-track .card-slider-item:nth-child(n+5) {
+    /* Web Dev section: 5 real cards, hide 6th onward */
+    #projects .card-slider-track .card-slider-item:nth-child(n+6) {
         display: none;
     }
 
