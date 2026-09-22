@@ -1134,9 +1134,11 @@ h3 {
 }
 
 #home .hero-headline em {
-    color: #667eea;
+    color: #fff;
     font-weight: 400;
     font-style: italic;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 1px 0 #000;
 }
 
 #home .hero-subheadline {
