@@ -61,7 +61,7 @@ const initParticleAnimation = () => {
             let y = (Math.random() * ((window.innerHeight - size * 2) - (size * 2)) + size * 2);
             let directionX = (Math.random() * 0.4) - 0.2;
             let directionY = (Math.random() * 0.4) - 0.2;
-            let color = 'rgba(191, 128, 255, 0.8)';
+            let color = 'rgba(70, 70, 70, 0.38)';
             particles.push(new Particle(x, y, directionX, directionY, size, color));
         }
     }
@@ -91,7 +91,7 @@ const initParticleAnimation = () => {
                     if (mouse.x && distance_mouse_a < mouse.radius) {
                         ctx.strokeStyle = `rgba(0, 0, 0, ${opacityValue})`;
                     } else {
-                        ctx.strokeStyle = `rgba(191, 128, 255, ${opacityValue})`;
+                        ctx.strokeStyle = `rgba(70, 70, 70, ${opacityValue * 0.38})`;
                     }
                     
                     ctx.lineWidth = 1;
