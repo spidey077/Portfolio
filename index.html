@@ -169,64 +169,99 @@
         <div id="home">
             <canvas id="particle-canvas"></canvas>
             <header class="container hero-header">
-                <div class="hero-content">
-                    <!-- Social Proof Mini Banner -->
-                    <div class="hero-social-proof d-flex align-items-center gap-2 mb-4 section reveal">
-                        <div class="d-flex">
-                            <img src="/Client.jpeg" width="40" height="40" alt="Client Ahsan"
-                                class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar">
-                            <img src="/Client2.png" width="40" height="40" alt="Client Haider"
-                                class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-avatar--overlap">
-                            <img src="/Ibrahim Bajwa.jfif" width="40" height="40" alt="Client Ibrahim Bajwa"
-                                class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-avatar--overlap">
-                            <img src="/Review3.jpeg" width="40" height="40" alt="KICKPICK client logo"
-                                class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-logo hero-client-avatar--overlap">
-                            <div class="rounded-circle border border-2 border-white shadow-sm bg-dark text-white d-flex align-items-center justify-content-center hover-target hero-client-rating">
-                                5.0
-                            </div>
+                <div class="hero-layout">
+                    <div class="hero-content">
+                        <p class="hero-eyebrow section reveal">
+                            <span aria-hidden="true"></span> Web development + AI automation
+                        </p>
+
+                        <h1 class="hero-headline fw-bold section reveal">
+                            Websites built<br>
+                            to grow. <span class="hero-headline-accent">AI built<br class="hero-mobile-break"> to respond.</span>
+                        </h1>
+
+                        <p class="hero-subheadline lead section reveal">
+                            I build websites with AI assistants that capture leads 24/7, so you never miss a customer inquiry.
+                        </p>
+
+                        <div class="hero-cta d-flex flex-column flex-sm-row gap-3 section reveal">
+                            <a href="https://cal.com/imdadullah/freecall" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-dark btn-lg px-5 py-3 fw-bold hover-target hero-primary-btn">
+                                Book a free call <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="#process" class="hero-secondary-link text-decoration-none">
+                                Explore the process <i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>
+                            </a>
                         </div>
-                        <div class="hero-social-copy text-start">
-                            <div class="hero-stars">
-                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+
+                        <div class="hero-social-proof d-flex align-items-center gap-2 section reveal">
+                            <div class="d-flex">
+                                <img src="/Client.jpeg" width="40" height="40" alt="Client Ahsan"
+                                    class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar">
+                                <img src="/Client2.png" width="40" height="40" alt="Client Haider"
+                                    class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-avatar--overlap">
+                                <img src="/Ibrahim Bajwa.jfif" width="40" height="40" alt="Client Ibrahim Bajwa"
+                                    class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-avatar--overlap">
+                                <img src="/Review3.jpeg" width="40" height="40" alt="KICKPICK client logo"
+                                    class="rounded-circle border border-2 border-white shadow-sm hero-client-avatar hero-client-logo hero-client-avatar--overlap">
+                                <div class="rounded-circle border border-2 border-white shadow-sm bg-dark text-white d-flex align-items-center justify-content-center hover-target hero-client-rating">
+                                    5.0
+                                </div>
                             </div>
-                            <span class="fw-bold hero-trust-label">Trusted by Growing Brands</span>
+                            <div class="hero-social-copy text-start">
+                                <div class="hero-stars" aria-label="Rated five out of five">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <strong>5.0</strong>
+                                </div>
+                                <span class="hero-trust-label">Trusted by Growing Brands</span>
+                            </div>
                         </div>
                     </div>
 
-                    <h1 class="hero-headline fw-bold mb-4 section reveal">
-                        Websites and AI systems <br>
-                        <em>built to grow your business</em>
-                    </h1>
+                    <div class="hero-visual section reveal" role="img" aria-label="Illustrative website and AI assistant preview">
+                        <div class="hero-visual-labels">
+                            <span>A website. A conversation. A lead.</span>
+                            <span>Illustrative demo</span>
+                        </div>
+                        <div class="hero-browser-frame">
+                            <div class="hero-browser-toolbar" aria-hidden="true">
+                                <span class="hero-browser-dots"><i></i><i></i><i></i></span>
+                                <span class="hero-browser-address"><i class="fas fa-lock"></i> studio.example</span>
+                                <span class="hero-browser-plus">+</span>
+                            </div>
+                            <div class="hero-browser-screen">
+                                <img src="/111.png" alt="Preview of a window-care business website">
+                            </div>
+                        </div>
 
-                    <p class="hero-subheadline lead mb-5 section reveal">
-                        I build websites with AI assistants that capture leads 24/7 — so you never miss a customer inquiry.
-                    </p>
+                        <div class="hero-assistant-card" aria-hidden="true">
+                            <div class="hero-assistant-header">
+                                <span class="hero-assistant-icon"><i class="fas fa-comment-dots"></i></span>
+                                <span class="hero-assistant-title">AI assistant<small>Online, ready to help</small></span>
+                                <span class="hero-assistant-minimize">-</span>
+                            </div>
+                            <div class="hero-assistant-messages">
+                                <p>Hi! How can I help with your project?</p>
+                                <p class="hero-assistant-user">I'd like a quote for window cleaning.</p>
+                                <p>Absolutely. What service do you need?</p>
+                            </div>
+                            <div class="hero-assistant-input">Write a message <i class="fas fa-arrow-up"></i></div>
+                        </div>
 
-                    <div class="hero-cta d-flex flex-column flex-sm-row align-items-start gap-3 mb-4 section reveal">
-                        <a href="https://cal.com/imdadullah/freecall" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-dark btn-lg px-5 py-3 fw-bold hover-target hero-primary-btn">
-                            Book a free call
-                        </a>
-                        <a href="#process" class="hero-secondary-link text-decoration-none">
-                            Explore the process <i class="fas fa-arrow-right ms-2" aria-hidden="true"></i>
-                        </a>
+                        <div class="hero-lead-card" aria-hidden="true">
+                            <span class="hero-lead-check"><i class="fas fa-check"></i></span>
+                            <span><strong>Inquiry captured</strong><small>Window cleaning <b>Sample lead</b></small></span>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="hero-stats section reveal">
-                        <div class="hero-stats-row d-flex gap-5">
-                            <div class="hero-stat">
-                                <div class="hero-stat-value">2s</div>
-                                <div class="hero-stat-label">AI Response Time</div>
-                            </div>
-                            <div class="hero-stat">
-                                <div class="hero-stat-value">24/7</div>
-                                <div class="hero-stat-label">Lead Capture</div>
-                            </div>
-                            <div class="hero-stat">
-                                <div class="hero-stat-value">100%</div>
-                                <div class="hero-stat-label">Responsive</div>
-                            </div>
+                <div class="hero-bottomline section reveal">
+                    <div class="hero-stats">
+                        <div class="hero-stats-row">
+                            <div class="hero-stat"><strong class="hero-stat-value">2s</strong><span class="hero-stat-label">AI response time</span></div>
+                            <div class="hero-stat"><strong class="hero-stat-value">24/7</strong><span class="hero-stat-label">Lead capture</span></div>
+                            <div class="hero-stat"><strong class="hero-stat-value">100%</strong><span class="hero-stat-label">Responsive</span></div>
                         </div>
                     </div>
                 </div>
