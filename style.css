@@ -1040,9 +1040,10 @@ h3 {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 120px 0 72px;
+    padding: 160px 0 72px;
     background: linear-gradient(135deg, #f2f5ff 0%, #cfd6e6 100%);
     color: #000;
 }
