@@ -1588,7 +1588,7 @@ footer a i:hover {
 
 /* Header */
 .chat-header {
-    background: linear-gradient(135deg, #00C6FF, #0072FF);
+    background: #111;
     padding: 15px 20px;
     color: white;
     display: flex;
@@ -1626,8 +1626,8 @@ footer a i:hover {
 
 .quick-option-btn {
     background: transparent;
-    border: 1px solid #0072FF;
-    color: #0072FF;
+    border: 1px solid #333;
+    color: #111;
     border-radius: 12px;
     padding: 6px 12px;
     font-size: 0.85rem;
@@ -1635,7 +1635,7 @@ footer a i:hover {
 }
 
 .quick-option-btn:hover {
-    background: #0072FF;
+    background: #111;
     color: white;
 }
 
@@ -1679,7 +1679,7 @@ footer a i:hover {
 
 .user-message {
     align-self: flex-end;
-    background: #0072FF;
+    background: #111;
     color: white;
     border-bottom-right-radius: 2px;
 }
@@ -1718,7 +1718,7 @@ footer a i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0072FF;
+    background: #111;
     color: white;
     border: none;
     transition: transform 0.2s;
@@ -1726,7 +1726,7 @@ footer a i:hover {
 
 .chat-input-area .send-btn:hover {
     transform: scale(1.05);
-    background: #0056b3;
+    background: #333;
 }
 
 /* Initial state for staggered animations */
@@ -2663,7 +2663,7 @@ footer a i:hover {
 .typing-indicator span {
     width: 8px;
     height: 8px;
-    background: #0072FF;
+    background: #111;
     border-radius: 50%;
     opacity: 0.4;
     animation: typingBounce 1.4s infinite ease-in-out;
