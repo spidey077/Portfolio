@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://imdadullah.vercel.app/sitemap.xml
+Sitemap: https://www.imdadullah.me/sitemap.xml
