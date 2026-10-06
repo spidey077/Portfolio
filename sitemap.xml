@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://imdadullah.vercel.app/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
+
   <url>
-    <loc>https://imdadullah.vercel.app/lead-generation-agent.html</loc>
-    <lastmod>2026-09-02</lastmod>
+    <loc>https://www.imdadullah.me/lead-generation-agent.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/pdf-summarizer.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/pdf-summarizer.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/todo.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/todo.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/invoice-extractor.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/invoice-extractor.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/email-task.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/email-task.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/automated-follow-up-system.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <loc>https://www.imdadullah.me/automated-follow-up-system.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/privacy.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/privacy.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://imdadullah.vercel.app/terms.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://www.imdadullah.me/terms.html</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
