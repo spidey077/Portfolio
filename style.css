@@ -2563,6 +2563,7 @@ footer a i:hover {
     flex: 0 0 auto;
     width: 340px;
     display: flex;
+    padding: 0.25rem;
 }
 
 .testimonial-slider-item:nth-child(odd) {
@@ -2577,11 +2578,19 @@ footer a i:hover {
     width: 100%;
     height: auto !important;
     padding: 1.75rem 1.75rem 1.5rem;
-    border-radius: 1rem !important;
-    background: #fff;
+    border-radius: 1.5rem !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+    border: 1px solid rgba(17, 17, 17, 0.08);
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    overflow: hidden;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(17, 17, 17, 0.12);
 }
 
 .testimonial-quote {
@@ -2686,6 +2695,8 @@ footer a i:hover {
     .testimonial-card {
         padding: 1.35rem 1.25rem 1.15rem;
         gap: 1rem;
+        border-radius: 1.25rem !important;
+        border: 1px solid rgba(17, 17, 17, 0.08);
     }
 
     .testimonial-quote-mark {
