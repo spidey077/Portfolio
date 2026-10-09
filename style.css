@@ -2265,21 +2265,21 @@ footer a i:hover {
 
     #home .hero-content {
         max-width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
     #home .hero-social-proof {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     #home .hero-social-copy {
-        text-align: left;
+        text-align: center;
     }
 
     #home .hero-headline {
         font-size: 2.3rem;
         line-height: 1.05;
-        text-align: left;
+        text-align: center;
         font-weight: 900;
         white-space: normal;
     }
@@ -2290,11 +2290,12 @@ footer a i:hover {
 
     #home .hero-subheadline {
         font-size: 1rem;
-        text-align: left;
+        text-align: center;
     }
 
     #home .hero-cta {
-        align-items: flex-start !important;
+        align-items: center !important;
+        justify-content: center;
     }
 
     #home .hero-primary-btn {
@@ -2302,15 +2303,14 @@ footer a i:hover {
         font-size: 1rem !important;
         width: 220px;
         max-width: 100%;
+        margin: 0 auto;
     }
 
     #home .hero-secondary-link {
         width: 220px;
         max-width: 100%;
-    }
-
-    #home .hero-secondary-link {
         text-align: center;
+        margin: 0 auto;
     }
 
     #home .hero-stats-row {
